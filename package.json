@@ -1,0 +1,30 @@
+{
+  "name": "pastry",
+  "version": "0.0.1",
+  "description": "Functional node.js framework for building server-side application",
+  "main": "index.js",
+  "repository": "https://github.com/duhyeokko/pastry.git",
+  "author": "duhyeokko <duhyeok.ko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duhyeokko/pastry/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint --fix src/**/*.ts"
+  },
+  "dependencies": {
+    "fp-ts": "^2.6.2",
+    "io-ts": "^2.2.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.0.2",
+    "@typescript-eslint/parser": "^3.0.2",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^1.19.1",
+    "typescript": "^3.9.3"
+  }
+}
